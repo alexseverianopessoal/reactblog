@@ -11,11 +11,10 @@ export const Home = () => {
     // ciclo de vida de componentes
     // posso escrever JavaScript
     useEffect(() => {
-        console.log('olaaaaaaa');
         // Pedir para o objeto client buscar os últimos 5 posts
         client
             .getEntries({
-                content_type: 'blogPost',
+                content_type: 'blogPostAula',
                 limit: 3,
                 order: "-sys.createdAt"
             })
@@ -27,7 +26,7 @@ export const Home = () => {
         // Pedir para o objeto client buscar todas as categorias
         client
             .getEntries({
-                content_type: 'blogCategory',
+                content_type: 'blogCategoryAula',
             })
             .then(function (entries) {
                 console.log('categorias', entries.items);

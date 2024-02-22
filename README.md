@@ -2,7 +2,7 @@
 
 Este é um projeto de avaliação da matéria de Front-End e UX!
 
-Este projeto foi desenvolvido com Stack React/ViteJs e Bootstrap.
+Este projeto foi desenvolvido com Stack React/ViteJs, Bootstrap e contentful para repositório dos dados do blog.
 
 ## Estrutura de Componentes
 * Footer.jsx: Componente responsável por exibir o rodapé do blog.

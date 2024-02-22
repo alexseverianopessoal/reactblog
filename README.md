@@ -1,6 +1,8 @@
-# React + Vite
+# Fiap React + Vite
 
-Este é um projeto de blog desenvolvido em React utilizando o framework Bootstrap para a criação de componentes visuais. O projeto segue uma estrutura organizada com componentes reutilizáveis e páginas distintas para exibir os posts.
+Este é um projeto de avaliação da matéria de Front-End e UX!
+
+Este projeto foi desenvolvido com Stack React/ViteJs e Bootstrap.
 
 ## Estrutura de Componentes
 * Footer.jsx: Componente responsável por exibir o rodapé do blog.

@@ -16,7 +16,7 @@ export const Posts = () => {
         // Pedir para o objeto client buscar os últimos 5 posts
         client
             .getEntries({
-                content_type: 'blogPost',
+                content_type: 'blogPostAula',
                 limit: 5,
                 skip: (currentPage - 1) * 5,
                 order: "-sys.createdAt"
@@ -30,7 +30,7 @@ export const Posts = () => {
         // Pedir para o objeto client buscar todas as categorias
         client
             .getEntries({
-                content_type: 'blogCategory',
+                content_type: 'blogCategoryAula',
             })
             .then(function (entries) {
                 console.log('categorias', entries.items);

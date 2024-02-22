@@ -23,4 +23,4 @@ Este projeto foi desenvolvido com Stack React/ViteJs e Bootstrap.
 * Certifique-se de ter o `Node.js` instalado em sua máquina.
 * No diretório do projeto, execute o comando `npm install` para instalar as dependências necessárias.
 * Após a instalação das dependências, execute o comando `npm run dev` para iniciar o servidor de desenvolvimento.
-* Abra o navegador e acesse http://localhost:3000 para visualizar o blog.
+* Abra o navegador e acesse Link gerado após o comando 'npm run dev' para visualizar.

@@ -18,7 +18,7 @@ export const Post = () => {
         client
             .getEntries({
                 "fields.postSlug": slug,
-                content_type: 'blogPost',
+                content_type: 'blogPostAula',
             })
             .then(function (entries) {
                 console.log("post", entries);
